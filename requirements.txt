@@ -1,0 +1,26 @@
+# Core ML stack
+torch>=2.0.0
+transformers>=4.51.0
+peft>=0.10.0
+trl>=0.8.0
+datasets>=2.18.0
+accelerate>=0.27.0
+
+# PDF processing
+pymupdf>=1.24.0
+Pillow>=10.0.0
+
+# Anthropic API (image processing + Q&A dataset generation)
+anthropic>=0.25.0
+
+# Local inference server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Chat UI
+streamlit>=1.32.0
+requests>=2.31.0
+
+# Utilities
+huggingface-hub>=0.22.0
+python-dotenv>=1.0.0

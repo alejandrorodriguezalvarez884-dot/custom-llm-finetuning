@@ -1,3 +1,10 @@
+# Project-specific
+documents/*
+!documents/.gitkeep
+outputs/*
+!outputs/.gitkeep
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
